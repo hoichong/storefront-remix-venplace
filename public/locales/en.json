@@ -219,9 +219,9 @@
     }
   },
   "vendure": {
-    "title": "Vendure Remix Starter",
-    "intro": "A headless commerce storefront starter kit built with",
-    "link": "Lightning Fast Headless Commerce with Vendure and Remix",
+    "title": "AgroBank Marketplace",
+    "intro": "A commerce Marketplace built with",
+    "link": "Lightning Fast API based Commerce by AscendMind Technologies",
     "demoCredentials": "Demo credentials",
     "exclusive": "Exclusive: Get your own",
     "repoLinkLabel": "FREE storefront starter kit",

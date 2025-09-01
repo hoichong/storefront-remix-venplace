@@ -123,10 +123,10 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <Header
+        {/* <Header
           onCartIconClick={() => setOpen(!open)}
           cartQuantity={activeOrder?.totalQuantity ?? 0}
-        />
+        /> */}
         <main className="">
           <Outlet
             context={{
