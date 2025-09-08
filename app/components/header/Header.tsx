@@ -32,7 +32,7 @@ export function Header({
             <p className="hidden sm:block">
               {t('vendure.exclusive')}{' '}
               <a
-                href="https://github.com/vendure-ecommerce/storefront-remix-starter"
+                href="https://ascendmind.my"
                 target="_blank"
                 className="underline"
               >

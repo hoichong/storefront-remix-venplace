@@ -141,7 +141,7 @@ export default function Footer({
                 clipRule="evenodd"
               />
             </svg>
-            <span>github.com/vendure-ecommerce/storefront-remix-starter</span>
+            <span>A Digital Commerce system by AscendMind Technologies</span>
           </a>
         </div>
       </div>
