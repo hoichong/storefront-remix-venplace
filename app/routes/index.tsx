@@ -4,6 +4,7 @@ import { CollectionCard } from '~/components/collections/CollectionCard';
 import { BookOpenIcon } from '@heroicons/react/24/solid';
 import { LoaderArgs } from '@remix-run/server-runtime';
 import { useTranslation } from 'react-i18next';
+import FloatingTopRightImage from '~/components/FloatingTopRightImage';
 
 export async function loader({ request }: LoaderArgs) {
   const collections = await getCollections(request, { take: 20 });
@@ -21,6 +22,11 @@ export default function Index() {
     <>
       <div className="relative">
         {/* Decorative image and overlay */}
+        <FloatingTopRightImage
+          src="https://vendure.w3o.io/assets/preview/1a/video-commerce-image__preview.png?preset=small"
+          href="https://live.byteplus.com/demo/sdk/index.playground.html?mode=pc-gridList"
+          alt="Video Commerce"
+        />
         <div aria-hidden="true" className="absolute inset-0 overflow-hidden">
           {headerImage && (
             <img
